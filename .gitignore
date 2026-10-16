@@ -1,0 +1,27 @@
+# Binaries & build artifacts
+src/c/matrix_mul_O0
+src/c/matrix_mul_O3
+src/c/verify
+src/java/bin/
+*.class
+
+# Python cache
+__pycache__/
+*.pyc
+
+# LaTeX temporary files
+report/*.aux
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+
+# macOS system files
+.DS_Store
+
+# Assignment PDF
+BD_Individual_Assignments_2026_2027.pdf
+
+# Large or temporary zips
+*.zip
