@@ -1,27 +1,37 @@
-# Binaries & build artifacts
-src/c/matrix_mul_O0
-src/c/matrix_mul_O3
-src/c/verify
-src/java/bin/
+# Compiled binaries and object files
+**/matrix_mul_O0
+**/matrix_mul_O3
+**/verify
+**/baseline_ijk
+**/reordered_ikj
+**/tiled_blocked
+**/verify_dense
+**/csr_spgemm
+**/verify_sparse
+*.o
 *.class
+bin/
+**/bin/
+*.dSYM
+**/*.dSYM/
 
 # Python cache
 __pycache__/
 *.pyc
 
 # LaTeX temporary files
-report/*.aux
-report/*.log
-report/*.out
-report/*.fls
-report/*.fdb_latexmk
-report/*.synctex.gz
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 
 # macOS system files
 .DS_Store
 
-# Assignment PDF
+# Course instruction PDF
 BD_Individual_Assignments_2026_2027.pdf
 
-# Large or temporary zips
+# Archives
 *.zip

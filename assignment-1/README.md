@@ -57,7 +57,6 @@ BD-assignment-1/
 │   ├── raw/                       # benchmark_results.csv (raw repetition logs)
 │   └── processed/                 # benchmark_summary.csv (medians, IQRs, slowdown ratios)
 └── report/
-    ├── Assignment01_Report.md     # Research report
     └── figures/                   # Generated plots
 ```
 
